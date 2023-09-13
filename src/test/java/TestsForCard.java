@@ -49,7 +49,7 @@ public class TestsForCard {
     void ShouldPositiveTestoLongNameSurnameSity() {
         String date = setLocalDate(365);
         open("http://localhost:9999");
-        $("[data-test-id=city] input").setValue("Комсомольск-на-Амуре");
+        $("[data-test-id=city] input").setValue("Петропавловск-Камчатский");
         $("[data-test-id=date] input").doubleClick().sendKeys(date);
         $("[data-test-id=name] input").setValue("Оттовордемгентшенфельд Абдурахмангаджи");
         $("[data-test-id=phone] input").setValue("+79118242529");
